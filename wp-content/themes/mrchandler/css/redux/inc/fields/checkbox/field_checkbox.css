@@ -1,0 +1,12 @@
+/* line 2, ../../../../../redux/inc/fields/checkbox/field_checkbox.scss */
+.redux-container-checkbox label {
+  vertical-align: top;
+  width: 100%;
+}
+/* line 6, ../../../../../redux/inc/fields/checkbox/field_checkbox.scss */
+.redux-container-checkbox label .field-desc {
+  margin-top: 0;
+  float: left;
+  width: 93%;
+  clear: none;
+}

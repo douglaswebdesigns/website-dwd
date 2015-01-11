@@ -1,0 +1,33 @@
+/* line 2, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+.redux-container-multi_text ul.redux-multi-text {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+.redux-container-multi_text .redux-multi-text-remove {
+  color: #F00;
+  padding: 2px 4px;
+  margin-left: 5px;
+}
+/* line 11, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+.redux-container-multi_text .redux-multi-text-remove:hover {
+  background: red;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 18, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+.redux-container-multi_text .redux-multi-text-add {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 782px) {
+  /* line 26, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+  .redux-container-multi_text input {
+    clear: both;
+  }
+  /* line 30, ../../../../../redux/inc/fields/multi_text/field_multi_text.scss */
+  .redux-container-multi_text .redux-multi-text-remove {
+    margin: 0;
+    float: right;
+  }
+}

@@ -1,0 +1,29 @@
+/* line 3, ../../../../../redux/inc/fields/dimensions/field_dimensions.scss */
+.redux-dimensions-container select,
+.redux-dimensions-container .select_wrapper {
+  width: 80px !important;
+  float: left;
+}
+/* line 8, ../../../../../redux/inc/fields/dimensions/field_dimensions.scss */
+.redux-dimensions-container .field-dimensions-input {
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 782px) {
+  /* line 17, ../../../../../redux/inc/fields/dimensions/field_dimensions.scss */
+  .redux-dimensions-container .field-dimensions-input input {
+    display: inline-block !important;
+    width: 100px !important;
+  }
+  /* line 22, ../../../../../redux/inc/fields/dimensions/field_dimensions.scss */
+  .redux-dimensions-container .field-dimensions-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* line 29, ../../../../../redux/inc/fields/dimensions/field_dimensions.scss */
+  .redux-dimensions-container .select_wrapper {
+    margin-top: 6px;
+  }
+}

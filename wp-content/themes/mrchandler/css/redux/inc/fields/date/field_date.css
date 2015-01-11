@@ -1,0 +1,9 @@
+/* line 1, ../../../../../redux/inc/fields/date/field_date.scss */
+#ui-datepicker-div {
+  z-index: 15 !important;
+}
+
+/* line 5, ../../../../../redux/inc/fields/date/field_date.scss */
+.ui-datepicker-header {
+  background-color: #00abef;
+}

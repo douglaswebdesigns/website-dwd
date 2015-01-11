@@ -1,0 +1,15 @@
+/* line 2, ../../../../../redux/inc/fields/ace_editor/field_ace_editor.scss */
+.redux-container-ace_editor .ace-wrapper {
+  position: static;
+}
+/* line 5, ../../../../../redux/inc/fields/ace_editor/field_ace_editor.scss */
+.redux-container-ace_editor .ace_editor {
+  height: 200px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 11, ../../../../../redux/inc/fields/ace_editor/field_ace_editor.scss */
+.redux-container-ace_editor .ace_gutter {
+  z-index: 1 !important;
+}

@@ -1,0 +1,133 @@
+/* line 1, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field {
+  min-height: 20px;
+  padding: 8px 19px;
+  margin: 10px 0;
+  border: 1px solid;
+  border-radius: 4px;
+  border: 1px solid;
+  position: relative;
+}
+/* line 15, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field h1,
+.redux-info-field h2,
+.redux-info-field h3,
+.redux-info-field h4,
+.redux-info-field h5,
+.redux-info-field h6 {
+  border-bottom: 0 !important;
+}
+/* line 19, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field h3 {
+  color: #777;
+}
+/* line 23, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field .redux-info-icon {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 27, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field .redux-info-icon i {
+  font-size: 2em;
+}
+/* line 32, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field .redux-info-desc {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 37, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-normal {
+  background-color: #eeeeee;
+  border-color: #cccccc;
+  color: #666666;
+}
+/* line 42, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-normal i {
+  color: #c5c5c5;
+}
+/* line 47, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-warning {
+  background-color: #fbeba4;
+  border-color: #d7c281;
+  color: #958234;
+}
+/* line 52, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-warning i {
+  color: #dcca81;
+}
+/* line 57, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-success {
+  background-color: #c4ee91;
+  border-color: #71af5d;
+  color: #4d7615;
+}
+/* line 62, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-success i {
+  color: #a0ca6c;
+}
+/* line 67, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-critical {
+  background-color: #fba1a3;
+  border-color: #b84f5b;
+  color: #981225;
+}
+/* line 72, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-critical i {
+  color: #dd767d;
+}
+/* line 77, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-info {
+  background-color: #d3e4f4;
+  border-color: #a9b6c2;
+  color: #5c80a1;
+}
+/* line 82, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-info-field.redux-info i {
+  color: #afc6da;
+}
+
+/* line 88, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field {
+  margin: 5px 0 15px;
+  background-color: #fff;
+  border: 0;
+  border-left: 4px solid #f3f3f3;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 1px 12px;
+}
+/* line 97, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field p {
+  margin: .5em 0;
+  padding: 2px;
+}
+/* line 102, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field .redux-info-icon {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 106, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field .redux-info-icon i {
+  font-size: 2em;
+}
+/* line 111, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field .redux-info-desc {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 116, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field.redux-info {
+  border-left: 4px solid #0099d5;
+}
+/* line 120, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field.redux-success {
+  border-left: 4px solid #7ad03a;
+}
+/* line 124, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field.redux-warning {
+  border-left: 4px solid #fbeba4;
+}
+/* line 128, ../../../../../redux/inc/fields/info/field_info.scss */
+.redux-notice-field.redux-critical {
+  border-left: 4px solid #dd3d36;
+}

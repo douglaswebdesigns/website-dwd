@@ -1,0 +1,33 @@
+/* line 3, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+.redux-container-spacing select,
+.redux-container-spacing .select_wrapper {
+  width: 80px !important;
+  float: left;
+}
+/* line 8, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+.redux-container-spacing .field-spacing-input {
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+/* line 13, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+.redux-container-spacing .dovy {
+  margin: 10px;
+}
+
+@media screen and (max-width: 782px) {
+  /* line 21, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+  .redux-container-spacing .field-spacing-input input {
+    display: inline-block !important;
+    width: 70px !important;
+  }
+  /* line 26, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+  .redux-container-spacing .field-spacing-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* line 33, ../../../../../redux/inc/fields/spacing/field_spacing.scss */
+  .redux-container-spacing .select_wrapper {
+    margin-top: 6px;
+  }
+}

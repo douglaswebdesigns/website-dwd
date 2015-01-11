@@ -1,0 +1,16 @@
+/* line 2, ../../../../../redux/inc/fields/color_gradient/field_color_gradient.scss */
+.redux-container-color_gradient .colorGradient {
+  display: inline-block;
+}
+/* line 5, ../../../../../redux/inc/fields/color_gradient/field_color_gradient.scss */
+.redux-container-color_gradient .toLabel {
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 660px) {
+  /* line 12, ../../../../../redux/inc/fields/color_gradient/field_color_gradient.scss */
+  .redux-container-color_gradient .colorGradient {
+    display: block;
+    text-align: center !important;
+  }
+}

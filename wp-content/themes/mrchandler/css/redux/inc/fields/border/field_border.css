@@ -1,0 +1,43 @@
+/* line 2, ../../../../../redux/inc/fields/border/field_border.scss */
+.redux-container-border .select2-container {
+  float: left;
+  display: block;
+  margin-right: 10px;
+}
+/* line 8, ../../../../../redux/inc/fields/border/field_border.scss */
+.redux-container-border .select_wrapper {
+  float: left;
+  width: inherit;
+}
+/* line 10, ../../../../../redux/inc/fields/border/field_border.scss */
+.redux-container-border .select_wrapper select {
+  width: 80px;
+  float: left;
+}
+/* line 18, ../../../../../redux/inc/fields/border/field_border.scss */
+.redux-container-border .field-border-input {
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+/* line 23, ../../../../../redux/inc/fields/border/field_border.scss */
+.redux-container-border .wp-picker-container {
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 782px) {
+  /* line 31, ../../../../../redux/inc/fields/border/field_border.scss */
+  .redux-container-border .field-border-input input {
+    display: inline-block !important;
+    width: 100px !important;
+  }
+  /* line 36, ../../../../../redux/inc/fields/border/field_border.scss */
+  .redux-container-border .field-border-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* line 43, ../../../../../redux/inc/fields/border/field_border.scss */
+  .redux-container-border .select_wrapper {
+    margin-top: 6px;
+  }
+}

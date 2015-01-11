@@ -1,0 +1,330 @@
+/*
+Theme Name: mrchandler
+Theme URI: http://douglaswebdesigns.com	/mrchandler
+Author: Paul Douglas
+Author URI: http://douglaswebdesigns.com/
+Description: Description
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mrchandler
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+.0 Alignments
+.0 Widgets
+.0 Content
+	.1 Posts and pages
+	.2 Asides
+	.3 Comments
+.0 Infinite scroll
+.0 Media
+	12.1 Captions
+	12.2 Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+.0 Word Breaks
+--------------------------------------------------------------*/
+/* line 37, ../_sass/style.scss */
+#primary, #secondary {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hypehens: auto;
+  hyphens: auto;
+}
+
+/*--------------------------------------------------------------
+.0 Global
+--------------------------------------------------------------*/
+/* line 50, ../_sass/style.scss */
+h1, .h1 {
+  font-size: 34px;
+  color: black;
+}
+
+/* line 59, ../_sass/style.scss */
+body {
+  background-color: red;
+}
+
+/*--------------------------------------------------------------
+.0 Images
+--------------------------------------------------------------*/
+/* line 67, ../_sass/style.scss */
+.img {
+  max-width: 50%;
+}
+
+/* line 71, ../_sass/style.scss */
+img {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+.0 Alignments
+--------------------------------------------------------------*/
+/* line 79, ../_sass/style.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+/* line 85, ../_sass/style.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+/* line 91, ../_sass/style.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  border-right: 10%;
+}
+
+/*--------------------------------------------------------------
+.0 Widgets
+--------------------------------------------------------------*/
+/* line 102, ../_sass/style.scss */
+.navbar-brand {
+  margin-left: 2.5%;
+}
+
+/*--------------------------------------------------------------
+.0 Widgets
+--------------------------------------------------------------*/
+/* line 113, ../_sass/style.scss */
+.widget {
+  margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets */
+/* line 118, ../_sass/style.scss */
+.widget select {
+  max-width: 100%;
+}
+
+/* Search widget */
+/* line 123, ../_sass/style.scss */
+.widget_search .search-submit {
+  display: none;
+}
+
+/* line 127, ../_sass/style.scss */
+.widget ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+/*--------------------------------------------------------------
+.0 Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+.1 Posts and pages
+--------------------------------------------------------------*/
+/* line 138, ../_sass/style.scss */
+.sticky {
+  display: block;
+}
+
+/* line 142, ../_sass/style.scss */
+.hentry {
+  margin: 0 0 1.5em;
+}
+
+/* line 147, ../_sass/style.scss */
+.byline,
+.updated:not(.published) {
+  display: none;
+}
+
+/* line 152, ../_sass/style.scss */
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+/* line 158, ../_sass/style.scss */
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+/* line 162, ../_sass/style.scss */
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+  color: rgba(255, 60, 87, 0.4);
+}
+
+/*--------------------------------------------------------------
+.0 Asides
+--------------------------------------------------------------*/
+/* line 172, ../_sass/style.scss */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+.0 Contact Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+.0 Footer
+--------------------------------------------------------------*/
+/* line 186, ../_sass/style.scss */
+.site-info {
+  position: relative;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+.0 Comments
+--------------------------------------------------------------*/
+/* line 194, ../_sass/style.scss */
+.comment-content a {
+  word-wrap: break-word;
+}
+
+/* line 198, ../_sass/style.scss */
+.bypostauthor {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+.0 Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+/* line 207, ../_sass/style.scss */
+.infinite-scroll .paging-navigation,
+.infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
+/* line 212, ../_sass/style.scss */
+.infinity-end.neverending .site-footer {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+.0 Media
+--------------------------------------------------------------*/
+/* line 221, ../_sass/style.scss */
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers */
+/* line 231, ../_sass/style.scss */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+.1 Captions
+--------------------------------------------------------------*/
+/* line 238, ../_sass/style.scss */
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+/* line 243, ../_sass/style.scss */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 248, ../_sass/style.scss */
+.wp-caption-text {
+  text-align: center;
+}
+
+/* line 252, ../_sass/style.scss */
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+/*--------------------------------------------------------------
+.2 Galleries
+--------------------------------------------------------------*/
+/* line 260, ../_sass/style.scss */
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+/* line 264, ../_sass/style.scss */
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+/* line 271, ../_sass/style.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+/* line 275, ../_sass/style.scss */
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+/* line 279, ../_sass/style.scss */
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+/* line 283, ../_sass/style.scss */
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+/* line 287, ../_sass/style.scss */
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+/* line 291, ../_sass/style.scss */
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+/* line 295, ../_sass/style.scss */
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+/* line 299, ../_sass/style.scss */
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+/* line 303, ../_sass/style.scss */
+.gallery-caption {
+  display: block;
+}

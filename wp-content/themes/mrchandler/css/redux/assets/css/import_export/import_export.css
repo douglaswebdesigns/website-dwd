@@ -1,0 +1,16 @@
+/* line 2, ../../../../../redux/assets/css/import_export/import_export.scss */
+#redux-import-link-wrapper,
+#redux-import-code-wrapper {
+  display: none;
+}
+
+/* line 7, ../../../../../redux/assets/css/import_export/import_export.scss */
+#redux-export-code,
+#redux-export-link-value {
+  display: none;
+}
+
+/* line 11, ../../../../../redux/assets/css/import_export/import_export.scss */
+#redux-import-action span {
+  color: #B94A48;
+}
